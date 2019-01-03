@@ -35,7 +35,7 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.pengrad</groupId>
+            <groupId>com.github.xwc1125</groupId>
             <artifactId>java-telegram-bot-api</artifactId>
             <version>4.1.1</version>
         </dependency>
