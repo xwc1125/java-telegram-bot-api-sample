@@ -1,32 +1,28 @@
 package com.xwc1125;
 
-import com.pengrad.telegrambot.Callback;
-import com.pengrad.telegrambot.GameTest;
-import com.pengrad.telegrambot.MessageTest;
-import com.pengrad.telegrambot.TelegramBot;
-import com.pengrad.telegrambot.model.*;
-import com.pengrad.telegrambot.model.request.*;
-import com.pengrad.telegrambot.request.AnswerCallbackQuery;
-import com.pengrad.telegrambot.request.AnswerInlineQuery;
-import com.pengrad.telegrambot.request.GetUpdates;
-import com.pengrad.telegrambot.request.SendGame;
-import com.pengrad.telegrambot.response.BaseResponse;
-import com.pengrad.telegrambot.response.GetUpdatesResponse;
-import com.pengrad.telegrambot.response.SendResponse;
+import com.xwc1125.telegrambot.Callback;
+import com.xwc1125.telegrambot.GameTest;
+import com.xwc1125.telegrambot.MessageTest;
+import com.xwc1125.telegrambot.TelegramBot;
+import com.xwc1125.telegrambot.model.*;
+import com.xwc1125.telegrambot.model.request.*;
+import com.xwc1125.telegrambot.request.AnswerCallbackQuery;
+import com.xwc1125.telegrambot.request.AnswerInlineQuery;
+import com.xwc1125.telegrambot.request.GetUpdates;
+import com.xwc1125.telegrambot.request.SendGame;
+import com.xwc1125.telegrambot.response.BaseResponse;
+import com.xwc1125.telegrambot.response.GetUpdatesResponse;
+import com.xwc1125.telegrambot.response.SendResponse;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import org.junit.Test;
 
-import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-import static com.pengrad.telegrambot.request.ContentTypes.VIDEO_MIME_TYPE;
+import static com.xwc1125.telegrambot.request.ContentTypes.VIDEO_MIME_TYPE;
 
 /**
  * stas

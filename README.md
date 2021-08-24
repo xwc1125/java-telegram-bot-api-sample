@@ -6,18 +6,17 @@ Java sample for interacting with [Java Telegram Bot API](https://github.com/xwc1
 
 Gradle:
 ```groovy
-implementation 'com.github.pengrad:java-telegram-bot-api:4.1.0'
+implementation 'com.github.xwc1125:java-telegram-bot-api:4.1.1'
 ```
 
 Maven:
 ```xml
 <dependency>
-  <groupId>com.github.pengrad</groupId>
+  <groupId>com.github.xwc1125</groupId>
   <artifactId>java-telegram-bot-api</artifactId>
   <version>4.1.0</version>
 </dependency>
 ```
-[JAR with all dependencies on release page](https://github.com/pengrad/java-telegram-bot-api/releases)
 
 ## Usage
 ```java
@@ -205,9 +204,9 @@ bot.removeGetUpdatesListener();
 All types have the same name as original ones.  
 Type's fields are methods in lowerCamelCase.
 
-Types used in responses **(Update, Message, User, Document...)** are in `com.pengrad.telegrambot.model` package. 
+Types used in responses **(Update, Message, User, Document...)** are in `com.xwc1125.telegrambot.model` package. 
 
-Types used in requests **(Keyboard, InlineQueryResult, ParseMode, InputMessageContent...)** are in `com.pengrad.telegrambot.model.request` package.  
+Types used in requests **(Keyboard, InlineQueryResult, ParseMode, InputMessageContent...)** are in `com.xwc1125.telegrambot.model.request` package.  
 When creating request's type required params should be passed in constructor, optional params can be added in chains.
 
 #### Keyboards
@@ -303,14 +302,14 @@ ParseMode parseMode = ParseMode.HTML;
 GetFile request = new GetFile("fileId")
 GetFileResponse getFileResponse = bot.execute(request);
 
-File file = getFileResponse.file(); // com.pengrad.telegrambot.model.File
+File file = getFileResponse.file(); // com.xwc1125.telegrambot.model.File
 file.fileId();
 file.filePath();  // relative path
 file.fileSize();
 ```
 To get downloading link as `https://api.telegram.org/file/bot<token>/<file_path>`
 ```java
-String fullPath = bot.getFullFilePath(file);  // com.pengrad.telegrambot.model.File
+String fullPath = bot.getFullFilePath(file);  // com.xwc1125.telegrambot.model.File
 ```
 
 #### Other requests

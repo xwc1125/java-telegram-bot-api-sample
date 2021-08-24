@@ -1,16 +1,16 @@
 package com.xwc1125;
 
-import com.pengrad.telegrambot.TelegramBot;
-import com.pengrad.telegrambot.model.Sticker;
-import com.pengrad.telegrambot.model.request.ReplyKeyboardMarkup;
-import com.pengrad.telegrambot.request.GetFile;
-import com.pengrad.telegrambot.request.GetMe;
-import com.pengrad.telegrambot.request.GetStickerSet;
-import com.pengrad.telegrambot.request.SendMessage;
-import com.pengrad.telegrambot.response.GetFileResponse;
-import com.pengrad.telegrambot.response.GetMeResponse;
-import com.pengrad.telegrambot.response.GetStickerSetResponse;
-import com.pengrad.telegrambot.response.SendResponse;
+import com.xwc1125.telegrambot.TelegramBot;
+import com.xwc1125.telegrambot.model.Sticker;
+import com.xwc1125.telegrambot.model.request.ReplyKeyboardMarkup;
+import com.xwc1125.telegrambot.request.GetFile;
+import com.xwc1125.telegrambot.request.GetMe;
+import com.xwc1125.telegrambot.request.GetStickerSet;
+import com.xwc1125.telegrambot.request.SendMessage;
+import com.xwc1125.telegrambot.response.GetFileResponse;
+import com.xwc1125.telegrambot.response.GetMeResponse;
+import com.xwc1125.telegrambot.response.GetStickerSetResponse;
+import com.xwc1125.telegrambot.response.SendResponse;
 import lombok.extern.slf4j.Slf4j;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
